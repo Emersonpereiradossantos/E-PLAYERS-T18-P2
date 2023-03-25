@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2? family=Roboto&family=Titillium+Web:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* CSS RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+   background-color: #1e1c21;
+   height: 80px;
+}
+
+.container-grid {
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.menu{
+    width: 653px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Roboto";  
+
+}
+
+.logo{ 
+}
+   
+   
+ .banner{
+    height: 610px;
+    background-image: url(../img/banner_pilotos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }  
+
+ .conteudo-banner a{
+    color: white;
+    background-color: #c31616;
+    border-radius: 5px;
+
+    padding: 15px;
+
+    font-family: "roboto";
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+ }
+
+ .posicionamento-banner{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    height: 100%;
+
+ }
+
+ .conteudo-banner{
+    width: 495px;
+    height: 300px;
+
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    
+    
+    color: white;
+
+ }
+
+ .conteudo-banner h1{
+    font-family: "titillium web";
+    font-weight: bold;
+    font-size: 80px;
+ }
+
+ .conteudo-banner p{
+    font-family: "roboto";
+    font-size: 25px;
+
+ }
+
+ .jogos{
+   background-color: black;
+   height: 120px;
+ }
+    
+.posicionamento-jogos{
+   height: 100%;
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.posicionamento-jogos img{
+   width: 150px;
+}
+
+@media screen and (max-width: 1200px) {
+   .container-grid{
+      width: 90vw;
+   }
+}
+
+
+
+@media screen and (max-width: 768px) {
+   header{ 
+      background-color:darkblue;
+   }
+   .banner{
+      background-image: url(../img/banner_lol.png);
+   }
+ 
+}
+
+
