@@ -127,7 +127,7 @@ header{
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
    header{ 
       background-color:darkblue;
    }
@@ -137,4 +137,15 @@ header{
  
 }
 
+
+
+@media screen and (max-width: 320px) {
+   header{ 
+      background-color:yellowgreen;
+   }
+   .banner{
+      background-image: url(../img/banner_lol.png);
+   }
+ 
+}
 
