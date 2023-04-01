@@ -19,6 +19,12 @@ header{
     
 }
 
+#barras{
+   display: none;
+
+}
+
+
 .cabecalho{
     display: flex;
     justify-content: space-between;
@@ -40,6 +46,16 @@ header{
     font-family: "Roboto";  
 
 }
+
+   .icone-menu{
+      height: 40px;  
+      
+                  
+   }
+
+ 
+   
+
 
 .logo{ 
 }
@@ -119,11 +135,27 @@ header{
    width: 150px;
 }
 
-@media screen and (max-width: 1200px) {
+/*@media screen and (max-width: 1200px) {
    .container-grid{
       width: 90vw;
    }
+}*/
+
+@media screen and (max-width: 1000px) {
+   .container-grid{
+      width: 800px;
+    
+         }
+         
+         #barras{
+            display: inline-block;
+         }
+
+         .menu{
+            display: none;
+         }
 }
+
 
 
 
