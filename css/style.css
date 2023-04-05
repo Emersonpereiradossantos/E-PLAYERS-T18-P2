@@ -151,11 +151,33 @@ header{
             display: inline-block;
          }
 
+         .cabecalho{
+            position: relative;
+         }
+
          .menu{
             display: none;
+            position: absolute;
+            top: 80px;
+            right:0px;
+            margin-right:-65px;
+            width: 300px;
+
+            background-color: rgb(89, 34, 65);
+
+            
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 300px;
+
+
          }
 }
 
+.menu a{
+   font-size: 20px;
+}
 
 
 
